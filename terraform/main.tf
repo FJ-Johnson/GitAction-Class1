@@ -11,7 +11,7 @@ provider "aws" {
     region = "eu-west-1"
 }
 
-resource "aws_instance" "fj Node" {
+resource "aws_instance" "fj_node" {
     ami = "ami-03e091ef64f3907f8"
     instance_type = "t3.micro"
 
